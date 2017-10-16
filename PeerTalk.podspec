@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
     spec.name     = 'PeerTalk'
     spec.version  = '0.0.2'
-    spec.license  = { :type => 'MIT' }
+    spec.license  = { type: 'MIT' }
     spec.homepage = 'http://rsms.me/peertalk/'
     spec.authors  = { 'Rasmus Andersson' => 'rasmus@notion.se' }
     spec.summary  = 'iOS and OS X Cocoa library for communicating over USB and TCP.'
 
-    spec.source   = { :git => "https://github.com/rsms/PeerTalk.git", :tag => '0.0.2' }
+    spec.source   = { git: "git@github.com:ResAppHealth/peertalk.git", branch: 'master' }
     spec.source_files = 'peertalk/*.{h,m}'
     spec.requires_arc = true
     spec.ios.deployment_target = '8.4'
