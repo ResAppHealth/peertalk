@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-    spec.name     = 'PeerTalk'
-    spec.version  = '0.0.3'
+    spec.name     = 'PeerTalk-RAP'
+    spec.version  = '0.0.1'
     spec.license  = { type: 'MIT' }
     spec.homepage = 'http://rsms.me/peertalk/'
     spec.authors  = { 'Rasmus Andersson' => 'rasmus@notion.se' }
