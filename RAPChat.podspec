@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-    spec.name     = 'PeerTalk-RAP'
+    spec.name     = 'RAPChat'
     spec.version  = '0.0.1'
     spec.license  = { type: 'MIT' }
     spec.homepage = 'http://rsms.me/peertalk/'
