@@ -50,9 +50,9 @@
 		EE158A791CBD3FF800A3E3F0 /* PTChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACFD2D4151D36220081ACF5 /* PTChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A7A1CBD3FF800A3E3F0 /* PTProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88FA5C150D61DE00FC3647 /* PTProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A7B1CBD3FF800A3E3F0 /* PTUSBHub.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A88FA5E150D61DE00FC3647 /* PTUSBHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE158A7D1CBD402600A3E3F0 /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE158A7E1CBD402600A3E3F0 /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE158A7F1CBD402600A3E3F0 /* Peertalk.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* Peertalk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE158A7D1CBD402600A3E3F0 /* RAPChat.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* RAPChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE158A7E1CBD402600A3E3F0 /* RAPChat.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* RAPChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE158A7F1CBD402600A3E3F0 /* RAPChat.h in Headers */ = {isa = PBXBuildFile; fileRef = EE158A7C1CBD402600A3E3F0 /* RAPChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE158A8E1CBD412900A3E3F0 /* PTChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACFD2D5151D36220081ACF5 /* PTChannel.m */; };
 		EE158A8F1CBD412900A3E3F0 /* PTProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A88FA5D150D61DE00FC3647 /* PTProtocol.m */; };
 		EE158A901CBD412900A3E3F0 /* PTUSBHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A88FA5F150D61DE00FC3647 /* PTUSBHub.m */; };
@@ -131,7 +131,7 @@
 		6ACFD2D5151D36220081ACF5 /* PTChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTChannel.m; sourceTree = "<group>"; };
 		EE158A5B1CBD3EB600A3E3F0 /* Peertalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Peertalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE158A681CBD3ED700A3E3F0 /* Peertalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Peertalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE158A7C1CBD402600A3E3F0 /* Peertalk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peertalk.h; sourceTree = "<group>"; };
+		EE158A7C1CBD402600A3E3F0 /* RAPChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAPChat.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -297,7 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				6A4010D515275E3800EF0E92 /* prefix.pch */,
-				EE158A7C1CBD402600A3E3F0 /* Peertalk.h */,
+				EE158A7C1CBD402600A3E3F0 /* RAPChat.h */,
 				5E2C5023171F46A6008A9752 /* PTPrivate.h */,
 				6ACFD2D4151D36220081ACF5 /* PTChannel.h */,
 				6ACFD2D5151D36220081ACF5 /* PTChannel.m */,
@@ -340,7 +340,7 @@
 				6A88FA62150D61DE00FC3647 /* PTUSBHub.h in Headers */,
 				6ACFD2D6151D36220081ACF5 /* PTChannel.h in Headers */,
 				5E2C5024171F46A6008A9752 /* PTPrivate.h in Headers */,
-				EE158A7D1CBD402600A3E3F0 /* Peertalk.h in Headers */,
+				EE158A7D1CBD402600A3E3F0 /* RAPChat.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +348,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE158A7E1CBD402600A3E3F0 /* Peertalk.h in Headers */,
+				EE158A7E1CBD402600A3E3F0 /* RAPChat.h in Headers */,
 				EE158A781CBD3FF800A3E3F0 /* PTUSBHub.h in Headers */,
 				EE158A771CBD3FF800A3E3F0 /* PTProtocol.h in Headers */,
 				EE158A761CBD3FF800A3E3F0 /* PTChannel.h in Headers */,
@@ -359,7 +359,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE158A7F1CBD402600A3E3F0 /* Peertalk.h in Headers */,
+				EE158A7F1CBD402600A3E3F0 /* RAPChat.h in Headers */,
 				EE158A7B1CBD3FF800A3E3F0 /* PTUSBHub.h in Headers */,
 				EE158A7A1CBD3FF800A3E3F0 /* PTProtocol.h in Headers */,
 				EE158A791CBD3FF800A3E3F0 /* PTChannel.h in Headers */,

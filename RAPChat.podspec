@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.summary  = 'iOS and OS X Cocoa library for communicating over USB and TCP.'
 
     spec.source   = { git: "git@github.com:ResAppHealth/peertalk.git", tag: spec.version }
-    spec.source_files = 'peertalk/*.{h,m}'
+    spec.source_files = 'RAPChat/*.{h,m}'
     spec.requires_arc = true
     spec.ios.deployment_target = '8.4'
     spec.osx.deployment_target = '10.10'
