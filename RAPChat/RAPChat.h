@@ -6,6 +6,8 @@
 //
 //
 
+#ifndef SWIFT_PACKAGE
+
 #import <Foundation/Foundation.h>
 
 //! Project version number for Peertalk.
@@ -20,3 +22,5 @@ FOUNDATION_EXPORT const unsigned char RAPChatVersionString[];
 #import <RAPChat/PTChannel.h>
 #import <RAPChat/PTProtocol.h>
 #import <RAPChat/PTUSBHub.h>
+
+#endif

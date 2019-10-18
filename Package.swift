@@ -23,14 +23,19 @@ let package = Package(
             name: "RAPChat",
             path: "RAPChat",
             sources: [""],
-            publicHeadersPath: ""),
+            publicHeadersPath: "",
+            cSettings: [
+                .define("SWIFT_PACKAGE"),
+            ]
+        ),
         .testTarget(
             name: "RAPChatTests",
             dependencies: ["RAPChat"],
             path: "",
             sources: ["peertalk-tests"],
             cSettings: [
-                .headerSearchPath("RAPChat")
+                .headerSearchPath("RAPChat"),
+                .define("SWIFT_PACKAGE"),
             ]
         ),
     ]
