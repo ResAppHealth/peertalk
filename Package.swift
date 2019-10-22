@@ -23,10 +23,7 @@ let package = Package(
             name: "RAPChat",
             path: "RAPChat",
             sources: [""],
-            publicHeadersPath: "",
-            cSettings: [
-                .define("RAP_SWIFT_PACKAGE"),
-            ]
+            publicHeadersPath: ""
         ),
         .testTarget(
             name: "RAPChatTests",
