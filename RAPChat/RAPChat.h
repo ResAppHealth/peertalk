@@ -6,7 +6,7 @@
 //
 //
 
-#ifndef SWIFT_PACKAGE
+#ifndef RAP_SWIFT_PACKAGE
 
 #import <Foundation/Foundation.h>
 

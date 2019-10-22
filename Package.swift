@@ -25,7 +25,7 @@ let package = Package(
             sources: [""],
             publicHeadersPath: "",
             cSettings: [
-                .define("SWIFT_PACKAGE"),
+                .define("RAP_SWIFT_PACKAGE"),
             ]
         ),
         .testTarget(
@@ -35,7 +35,7 @@ let package = Package(
             sources: ["peertalk-tests"],
             cSettings: [
                 .headerSearchPath("RAPChat"),
-                .define("SWIFT_PACKAGE"),
+                .define("RAP_SWIFT_PACKAGE"),
             ]
         ),
     ]
