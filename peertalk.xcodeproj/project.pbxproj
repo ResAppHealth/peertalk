@@ -298,8 +298,8 @@
 		6A88FA39150D613800FC3647 /* peertalk */ = {
 			isa = PBXGroup;
 			children = (
+				FA8E71D6235FC4B000E49ED3 /* include */,
 				6A4010D515275E3800EF0E92 /* prefix.pch */,
-				EE158A7C1CBD402600A3E3F0 /* RAPChat.h */,
 				5E2C5023171F46A6008A9752 /* PTPrivate.h */,
 				6ACFD2D4151D36220081ACF5 /* PTChannel.h */,
 				6ACFD2D5151D36220081ACF5 /* PTChannel.m */,
@@ -330,6 +330,14 @@
 				6A88FA4E150D613800FC3647 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA8E71D6235FC4B000E49ED3 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EE158A7C1CBD402600A3E3F0 /* RAPChat.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
